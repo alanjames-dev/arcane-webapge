@@ -291,15 +291,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# arcane Section
 --------------------------------------------------------------*/
-#hero {
+#arcane {
   width: auto%;
   height: 100vh;
   background: url("../img/arcane-bg.png");
   position: relative;
 }
-#hero .hero-container {
+#arcane .arcane-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -312,24 +312,24 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 0 15px;
 }
-#hero .arcane-logo {
+#arcane .arcane-logo {
   margin-bottom: 30px;
 }
-#hero h1 {
+#arcane h1 {
   margin: 0 0 30px 0;
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
   color: #fff;
 }
-#hero h2 {
+#arcane h2 {
   color: #aeaeae;
   margin-bottom: 30px;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
 }
-#hero .btn-get-started {
+#arcane .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -342,22 +342,40 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #cb0000;
 }
-#hero .btn-get-started:hover {
+#arcane .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #cb0000;
+}
+#arcane .btn-get-started-1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;
+  color: #fff;
+  background: #cb0000;
+}
+#arcane .btn-get-started-1:hover {
   transition: 0.5s;
   background: #fff;
   color: #cb0000;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #arcane {
     background-attachment: fixed;
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  #arcane h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #arcane h2 {
     line-height: 22px;
   }
 }
