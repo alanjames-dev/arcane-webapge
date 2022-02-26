@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #cb0000;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #97d193;
+  background: #cb0000;
   color: #fff;
 }
 .back-to-top.active {
@@ -1015,7 +1015,7 @@ section {
   height: 40px;
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
-  background: rgba(124, 197, 118, 0.8);
+  background: #cb0000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1064,9 +1064,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Membership
 --------------------------------------------------------------*/
-.pricing .box {
+.Membership .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1075,7 +1075,7 @@ section {
   overflow: hidden;
   border: 1px solid #fff;
 }
-.pricing .box h3 {
+.Membership .box h3 {
   font-weight: 400;
   padding: 15px;
   margin-top: 15px;
@@ -1083,24 +1083,24 @@ section {
   font-weight: 600;
   color: #151515;
 }
-.pricing .box h4 {
+.Membership .box h4 {
   font-size: 42px;
   color: #151515;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
-.pricing .box h4 sup {
+.Membership .box h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
-.pricing .box h4 span {
+.Membership .box h4 span {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
-.pricing .box ul {
+.Membership .box ul {
   padding: 0;
   list-style: none;
   color: #151515;
@@ -1108,23 +1108,23 @@ section {
   line-height: 20px;
   font-size: 14px;
 }
-.pricing .box ul li {
+.Membership .box ul li {
   padding-bottom: 16px;
 }
-.pricing .box ul i {
+.Membership .box ul i {
   color: #cb0000;
   font-size: 18px;
   padding-right: 4px;
 }
-.pricing .box ul .na {
+.Membership .box ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
-.pricing .box .btn-wrap {
+.Membership .box .btn-wrap {
   padding: 15px;
   text-align: center;
 }
-.pricing .box .btn-buy {
+.Membership .box .btn-buy {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 5px;
@@ -1136,22 +1136,22 @@ section {
   font-weight: 600;
   transition: 0.3s;
 }
-.pricing .box .btn-buy:hover {
+.Membership .box .btn-buy:hover {
   background: #cb0000;
   color: #fff;
 }
-.pricing .recommended {
+.Membership .recommended {
   border-color: #cb0000;
 }
-.pricing .recommended .btn-buy {
+.Membership .recommended .btn-buy {
   background: #cb0000;
   color: #fff;
 }
-.pricing .recommended .btn-buy:hover {
-  background: #61b959;
-  border-color: #61b959;
+.Membership .recommended .btn-buy:hover {
+  background: #cb0000;
+  border-color: #cb0000;
 }
-.pricing .recommended-badge {
+.Membership .recommended-badge {
   position: absolute;
   top: 5px;
   left: 50%;
@@ -1159,7 +1159,7 @@ section {
   z-index: 1;
   font-size: 12px;
   padding: 4px 25px 6px 25px;
-  background: #eaf6e9;
+  background: #ffeeee;
   color: #cb0000;
   border-radius: 50px;
   text-transform: uppercase;
@@ -1230,7 +1230,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eaf6e9;
+  background: #ffeeee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1323,7 +1323,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #61b959;
+  background: #cb0000;
 }
 @-webkit-keyframes animate-loading {
   0% {
